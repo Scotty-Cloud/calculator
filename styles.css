@@ -1,8 +1,11 @@
+html {
+    background-color: antiquewhite;
+}
 .container{
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
 }
 input{
     display: grid;
@@ -41,14 +44,15 @@ button{
     height: 59px;
     width: 58px;
     font-size: x-large;
+    background-color: #565151;
 }
 .first
 {
-    background: rgb(167 177 223);
+    background: rgb(134, 221, 198);
 }
 .symbol
 {
-    background: rgb(255 191 0);
+    background: rgb(99, 148, 132);
 }
 button:active
 {
