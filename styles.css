@@ -1,5 +1,10 @@
 html {
-    background-color: antiquewhite;
+    background: url('https://images.unsplash.com/photo-1589497836818-9ad2fa1df1a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxMzYwOTV8fGVufDB8fHx8&w=1000&q=80');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    overflow: hidden;
 }
 .container{
     height: 100vh;
@@ -30,13 +35,21 @@ input{
     height: 450px;
     border-radius: 27px;
     background: black;
-    box-shadow: 0px -2px 5px 0px #5a5a5a, 0px 2px 5px 2px black;
+    /* box-shadow: 0px -2px 5px 0px #5a5a5a, 0px 2px 5px 2px black;
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
-    background: rgba(223, 207, 207, 0.75);
+    background: rgba(141, 170, 147, 0.75);
     border: 1px solid rgba(255,255, 255, 0.1);
     border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.2); */
+    background: rgba(207, 53, 207, 0.1);
+    background: rgba(141, 170, 147, 0.75);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 button{
     border-radius: 27px;
@@ -44,17 +57,17 @@ button{
     height: 59px;
     width: 58px;
     font-size: x-large;
-    background-color: #565151;
+    background-color: #606b91;
 }
 .first
 {
-    background: rgb(134, 221, 198);
+    background: rgb(117, 109, 184);
 }
 .symbol
 {
-    background: rgb(99, 148, 132);
+    background: rgb(102, 95, 146);
 }
 button:active
 {
-    background: rgb(144, 144, 199);
+    background:#8884bd;
 }
